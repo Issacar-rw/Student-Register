@@ -1,0 +1,26 @@
+{
+  "canisters": {
+    "st-registion-backend": {
+      "main": "src/st-registion-backend/main.mo",
+      "type": "motoko"
+    },
+    "st-registion-frontend": {
+      "dependencies": [
+        "st-registion-backend"
+      ],
+      "source": [
+        "src/st-registion-frontend/dist"
+      ],
+      "type": "assets",
+      "workspace": "st-registion-frontend"
+    }
+  },
+  "defaults": {
+    "build": {
+      "args": "",
+      "packtool": ""
+    }
+  },
+  "output_env_file": ".env",
+  "version": 1
+}
