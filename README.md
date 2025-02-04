@@ -15,7 +15,7 @@ Setup Instructions
 git clone https://github.com/Issacar-rw/Student-Register.git
 
 Change into the project directory
-cd Student-Registry
+cd st-registion
 
 Install dependencies
 npm install
