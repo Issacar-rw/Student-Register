@@ -12,16 +12,24 @@ Setup Instructions
 
 1.Clone repository
 
-2.Install dependencies
+git clone https://github.com/Issacar-rw/Student-Registry.git
+
+Change into the project directory
+cd Student-Registry
+
+Install dependencies
 npm install
 
-3.Start local dfx replica
+Optional: Verify remote repository
+git remote -v
+
+2.Start local dfx replica
 dfx start --clean --background
 
-4.Deploy canisters
+3.Deploy canisters
 dfx deploy
 
-5.Run development server
+4.Run development server
 npm start
 
 Environment Configuration
