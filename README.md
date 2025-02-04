@@ -12,7 +12,7 @@ Setup Instructions
 
 1.Clone repository
 
-git clone https://github.com/Issacar-rw/Student-Registry.git
+git clone https://github.com/Issacar-rw/Student-Register.git
 
 Change into the project directory
 cd Student-Registry
