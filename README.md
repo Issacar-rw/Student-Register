@@ -28,6 +28,8 @@ Optional: Verify remote repository
 
 3.Deploy canisters
 "dfx deploy"
+Note: After deploy canister open project and go in src/declarations/st-registion-backend/index.js to edit line 13 and 25,
+replace "process.env" with "import.meta.env"
 
 4.Run development server
 "npm start"
