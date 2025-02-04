@@ -15,22 +15,22 @@ Setup Instructions
 git clone https://github.com/Issacar-rw/Student-Register.git
 
 Change into the project directory
-cd st-registion
+"cd Student-Register"
 
 Install dependencies
-npm install
+"npm install"
 
 Optional: Verify remote repository
-git remote -v
+"git remote -v"
 
 2.Start local dfx replica
-dfx start --clean --background
+"dfx start --clean --background"
 
 3.Deploy canisters
-dfx deploy
+"dfx deploy"
 
 4.Run development server
-npm start
+"npm start"
 
 Environment Configuration
 - Create `.env` file with:
